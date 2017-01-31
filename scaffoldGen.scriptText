@@ -1,0 +1,18 @@
+touch webpack.config.js 
+&& take src 
+&& touch app-client.js routes.js server.js 
+&& take components 
+&& touch AppRoutes.js AthletePage.js AthletePreview.js AthletesMenu.js
+      Flag.js IndexPage.js Layout.js Medal.js NotFoundPage.js 
+&& cd .. 
+&& take data 
+&& touch athletes.js 
+&& cd .. && 
+take static 
+&& touch index.html favicon.ico 
+&& md css img js 
+&& cd .. 
+&& take views 
+&& touch index.ejs 
+&& cd ../.. 
+&& code . 
